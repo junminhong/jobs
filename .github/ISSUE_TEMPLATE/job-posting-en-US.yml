@@ -1,5 +1,5 @@
-name: Job Posting
-description: Post a new job opportunity
+name: OpenJobHub - Job Posting
+description: Post a new job opportunity on OpenJobHub
 title: "[Job] "
 labels: ["job"]
 body:

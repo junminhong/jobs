@@ -1,5 +1,5 @@
-name: 職缺發佈 Job Posting
-description: 發佈新的工作職缺
+name: OpenJobHub - 職缺發佈
+description: 透過 OpenJobHub 發佈新的工作職缺
 title: "[職缺] "
 labels: ["job"]
 body:
