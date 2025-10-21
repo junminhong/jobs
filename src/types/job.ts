@@ -37,7 +37,7 @@ export type JobTypeFilter = 'all' | 'remote' | 'full-time' | 'part-time' | 'inte
 
 export type ContinentFilter = 'all' | 'asia' | 'americas' | 'europe' | 'oceania' | 'africa'
 
-export type RegionFilter =
+export type RegionFilterType =
   | 'all'
   // Asia
   | 'taiwan'
