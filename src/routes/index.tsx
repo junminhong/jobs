@@ -8,7 +8,7 @@ import { useI18n } from '@/contexts/I18nContext'
 import { matchesRegion } from '@/lib/filterJobs'
 import { Loader2 } from 'lucide-react'
 import { useMemo, useState } from 'react'
-import type { JobTypeFilter, RegionFilter as RegionFilterType } from '@/types/job'
+import type { JobTypeFilter, RegionFilterType } from '@/types/job'
 
 export const Route = createFileRoute('/')({
   component: Home,
