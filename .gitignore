@@ -1,0 +1,6 @@
+.DS_Store
+
+.tanstack/tmp
+src/routeTree.gen.ts
+
+node_modules
