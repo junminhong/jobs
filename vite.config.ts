@@ -14,5 +14,5 @@ export default defineConfig({
     tailwindcss(),
     tsconfigPaths(),
   ],
-  base: process.env.NODE_ENV === 'production' ? '/jobs/' : '/',
+  base: '/',
 })

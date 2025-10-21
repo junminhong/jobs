@@ -14,7 +14,7 @@
 
 讓職缺探索更開放、更透明！🚀
 
-[前往網站](https://junminhong.github.io/jobs/) • [發佈職缺](https://github.com/junminhong/jobs/issues/new/choose) • [回報問題](https://github.com/junminhong/jobs/issues)
+[前往網站](https://jobs.wowkit.net/) • [發佈職缺](https://github.com/junminhong/jobs/issues/new/choose) • [回報問題](https://github.com/junminhong/jobs/issues)
 
 </div>
 
@@ -123,7 +123,7 @@ OpenJobHub 是一個**完全免費且開源**的全球職缺平台，基於 GitH
 
 ## 🔍 給求職者
 
-在我們的網站上瀏覽職缺：[junminhong.github.io/jobs](https://junminhong.github.io/jobs/)
+在我們的網站上瀏覽職缺：[jobs.wowkit.net](https://jobs.wowkit.net/)
 
 ### 功能特色：
 - 🔎 **搜尋** - 用關鍵字尋找職缺（公司、職位、描述）

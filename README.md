@@ -14,7 +14,7 @@
 
 Making job discovery open and transparent! 🚀
 
-[View Website](https://junminhong.github.io/jobs/) • [Post a Job](https://github.com/junminhong/jobs/issues/new/choose) • [Report Issue](https://github.com/junminhong/jobs/issues)
+[View Website](https://jobs.wowkit.net/) • [Post a Job](https://github.com/junminhong/jobs/issues/new/choose) • [Report Issue](https://github.com/junminhong/jobs/issues)
 
 </div>
 
@@ -123,7 +123,7 @@ South Africa, UAE, Israel, Others
 
 ## 🔍 For Job Seekers
 
-Browse jobs on our website: [junminhong.github.io/jobs](https://junminhong.github.io/jobs/)
+Browse jobs on our website: [jobs.wowkit.net](https://jobs.wowkit.net/)
 
 ### Features:
 - 🔎 **Search** - Find jobs by keyword (company, title, description)
