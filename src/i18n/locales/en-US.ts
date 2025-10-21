@@ -5,8 +5,14 @@ export const enUS = {
     postJob: 'Post a Job',
   },
   footer: {
-    poweredBy: 'Powered by GitHub Issues & GitHub Pages',
+    madeWith: 'Made with ❤️ for Job Seekers Worldwide',
+    tagline: 'Making job discovery open and transparent! 🚀',
+    starMessage: 'If you find this helpful, please give it a ⭐ on GitHub!',
+    reportBug: 'Report Bug',
+    requestFeature: 'Request Feature',
+    postJob: 'Post a Job',
     viewOnGitHub: 'View on GitHub',
+    poweredBy: 'Powered by GitHub Issues & GitHub Pages',
   },
   filters: {
     search: 'Search for jobs or companies...',

@@ -5,8 +5,14 @@ export const zhTW = {
     postJob: '發佈職缺',
   },
   footer: {
+    madeWith: 'Made with ❤️ for Job Seekers Worldwide',
+    tagline: '讓職缺探索更開放、更透明！🚀',
+    starMessage: '如果覺得有幫助，請給我們一個 ⭐',
+    reportBug: '回報問題',
+    requestFeature: '功能建議',
+    postJob: '發佈職缺',
+    viewOnGitHub: 'GitHub 專案',
     poweredBy: 'Powered by GitHub Issues & GitHub Pages',
-    viewOnGitHub: 'View on GitHub',
   },
   filters: {
     search: '搜尋職位或公司...',
