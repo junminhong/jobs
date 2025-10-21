@@ -2,6 +2,7 @@ import { Outlet, createRootRoute } from '@tanstack/react-router'
 import { GITHUB_CONFIG } from '@/lib/config'
 import { useI18n } from '@/contexts/I18nContext'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
+import bannerImg from '@/assets/images/banner.jpg'
 
 export const Route = createRootRoute({
   component: RootComponent,
@@ -16,7 +17,7 @@ function RootComponent() {
         {/* Background Image */}
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: 'url(/src/assets/images/banner.jpg)' }}
+          style={{ backgroundImage: `url(${bannerImg})` }}
         />
         <div className="absolute inset-0 bg-black/40" />
 
