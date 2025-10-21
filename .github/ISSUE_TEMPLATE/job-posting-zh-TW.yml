@@ -1,0 +1,147 @@
+name: 職缺發佈 Job Posting
+description: 發佈新的工作職缺
+title: "[職缺] "
+labels: ["job"]
+body:
+  - type: input
+    id: company
+    attributes:
+      label: 公司名稱
+      description: 請輸入公司名稱
+      placeholder: 例如：Google, Meta, Startup Inc.
+    validations:
+      required: true
+
+  - type: input
+    id: position
+    attributes:
+      label: 職位名稱
+      description: 請輸入職位名稱
+      placeholder: 例如：Senior Frontend Engineer, Product Manager
+    validations:
+      required: true
+
+  - type: dropdown
+    id: job-type
+    attributes:
+      label: 工作類型
+      options:
+        - Full-time 全職
+        - Part-time 兼職
+        - Contract 約聘
+        - Internship 實習
+    validations:
+      required: true
+
+  - type: dropdown
+    id: location-type
+    attributes:
+      label: 工作地點類型
+      options:
+        - Remote 遠端
+        - On-site 現場
+        - Hybrid 混合
+    validations:
+      required: true
+
+  - type: dropdown
+    id: region
+    attributes:
+      label: 地區 Region
+      description: 選擇職缺所在地區
+      options:
+        - "--- 🌏 亞洲 Asia ---"
+        - 🇹🇼 台灣 Taiwan
+        - 🇨🇳 中國 China
+        - 🇯🇵 日本 Japan
+        - 🇰🇷 韓國 South Korea
+        - 🇸🇬 新加坡 Singapore
+        - 🇭🇰 香港 Hong Kong
+        - 🇮🇳 印度 India
+        - 🇹🇭 泰國 Thailand
+        - 🇻🇳 越南 Vietnam
+        - 🇲🇾 馬來西亞 Malaysia
+        - 🇮🇩 印尼 Indonesia
+        - 🇵🇭 菲律賓 Philippines
+        - "--- 🌎 美洲 Americas ---"
+        - 🇺🇸 美國 United States
+        - 🇨🇦 加拿大 Canada
+        - 🇲🇽 墨西哥 Mexico
+        - 🇧🇷 巴西 Brazil
+        - 🇦🇷 阿根廷 Argentina
+        - "--- 🇪🇺 歐洲 Europe ---"
+        - 🇬🇧 英國 United Kingdom
+        - 🇩🇪 德國 Germany
+        - 🇫🇷 法國 France
+        - 🇳🇱 荷蘭 Netherlands
+        - 🇨🇭 瑞士 Switzerland
+        - 🇸🇪 瑞典 Sweden
+        - 🇮🇪 愛爾蘭 Ireland
+        - 🇪🇸 西班牙 Spain
+        - 🇮🇹 義大利 Italy
+        - 🇵🇱 波蘭 Poland
+        - "--- 🌏 大洋洲 Oceania ---"
+        - 🇦🇺 澳洲 Australia
+        - 🇳🇿 紐西蘭 New Zealand
+        - "--- 🌍 非洲及其他 Africa & Others ---"
+        - 🇿🇦 南非 South Africa
+        - 🇦🇪 阿聯酋 UAE
+        - 🇮🇱 以色列 Israel
+        - 🌏 其他 Others
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: 工作地點
+      description: 請輸入具體城市或地點
+      placeholder: 例如：台北, 新竹, San Francisco, Tokyo
+    validations:
+      required: true
+
+  - type: input
+    id: salary
+    attributes:
+      label: 薪資範圍
+      description: 請提供薪資範圍
+      placeholder: 例如：80萬-120萬 TWD/年, $100k-$150k USD/year
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 職位描述
+      description: 請描述工作內容、要求技能等
+      placeholder: |
+        ## 工作內容
+        - 職責 1
+        - 職責 2
+
+        ## 必備條件
+        - 技能 1
+        - 技能 2
+
+        ## 加分條件
+        - 額外技能
+    validations:
+      required: true
+
+  - type: input
+    id: contact
+    attributes:
+      label: 聯絡方式
+      description: Email 或其他聯絡方式
+      placeholder: 例如：hr@company.com, https://jobs.company.com/apply
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 其他資訊
+      description: 任何其他想補充的資訊
+      placeholder: 公司福利、團隊介紹、技術棧等
+    validations:
+      required: false

@@ -1,0 +1,147 @@
+name: Job Posting
+description: Post a new job opportunity
+title: "[Job] "
+labels: ["job"]
+body:
+  - type: input
+    id: company
+    attributes:
+      label: Company Name
+      description: Please enter the company name
+      placeholder: e.g., Google, Meta, Startup Inc.
+    validations:
+      required: true
+
+  - type: input
+    id: position
+    attributes:
+      label: Position Title
+      description: Please enter the position title
+      placeholder: e.g., Senior Frontend Engineer, Product Manager
+    validations:
+      required: true
+
+  - type: dropdown
+    id: job-type
+    attributes:
+      label: Job Type
+      options:
+        - Full-time
+        - Part-time
+        - Contract
+        - Internship
+    validations:
+      required: true
+
+  - type: dropdown
+    id: location-type
+    attributes:
+      label: Location Type
+      options:
+        - Remote
+        - On-site
+        - Hybrid
+    validations:
+      required: true
+
+  - type: dropdown
+    id: region
+    attributes:
+      label: Region
+      description: Select the job location region
+      options:
+        - "--- 🌏 Asia ---"
+        - 🇹🇼 Taiwan
+        - 🇨🇳 China
+        - 🇯🇵 Japan
+        - 🇰🇷 South Korea
+        - 🇸🇬 Singapore
+        - 🇭🇰 Hong Kong
+        - 🇮🇳 India
+        - 🇹🇭 Thailand
+        - 🇻🇳 Vietnam
+        - 🇲🇾 Malaysia
+        - 🇮🇩 Indonesia
+        - 🇵🇭 Philippines
+        - "--- 🌎 Americas ---"
+        - 🇺🇸 United States
+        - 🇨🇦 Canada
+        - 🇲🇽 Mexico
+        - 🇧🇷 Brazil
+        - 🇦🇷 Argentina
+        - "--- 🇪🇺 Europe ---"
+        - 🇬🇧 United Kingdom
+        - 🇩🇪 Germany
+        - 🇫🇷 France
+        - 🇳🇱 Netherlands
+        - 🇨🇭 Switzerland
+        - 🇸🇪 Sweden
+        - 🇮🇪 Ireland
+        - 🇪🇸 Spain
+        - 🇮🇹 Italy
+        - 🇵🇱 Poland
+        - "--- 🌏 Oceania ---"
+        - 🇦🇺 Australia
+        - 🇳🇿 New Zealand
+        - "--- 🌍 Africa & Others ---"
+        - 🇿🇦 South Africa
+        - 🇦🇪 UAE
+        - 🇮🇱 Israel
+        - 🌏 Others
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Please enter the specific city or location
+      placeholder: e.g., Taipei, Hsinchu, San Francisco, Tokyo
+    validations:
+      required: true
+
+  - type: input
+    id: salary
+    attributes:
+      label: Salary Range
+      description: Please provide the salary range
+      placeholder: e.g., TWD 800k-1.2M/year, $100k-$150k USD/year
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Job Description
+      description: Please describe job responsibilities, required skills, etc.
+      placeholder: |
+        ## Responsibilities
+        - Responsibility 1
+        - Responsibility 2
+
+        ## Requirements
+        - Skill 1
+        - Skill 2
+
+        ## Nice to Have
+        - Additional skills
+    validations:
+      required: true
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Information
+      description: Email or other contact method
+      placeholder: e.g., hr@company.com, https://jobs.company.com/apply
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: Any other information you'd like to add
+      placeholder: Company benefits, team introduction, tech stack, etc.
+    validations:
+      required: false
